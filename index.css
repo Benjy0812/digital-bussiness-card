@@ -7,15 +7,16 @@ body {
 }
 
 .card {
-    display: flex;
-    padding: 20px;
-    border:  1px dotted blue
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+
+  padding: 20px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.info {
-    margin-left: 20px;
-}
-
-.dotted-blue-1px {
-  border: dotted blue 1px;
+.border-blue {
+  border: 1px dotted blue;
 }
