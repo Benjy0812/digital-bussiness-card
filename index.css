@@ -15,36 +15,21 @@ body {
 
 .card {
   display: flex;
-  justify-content: space-around;
   text-align: center;
+  justify-content: space-around;
   width: 400px;
-
-  background: hsla(211, 96%, 62%, 1);
-
-  background: linear-gradient(
-    90deg,
-    hsla(211, 96%, 62%, 1) 0%,
-    hsla(295, 94%, 76%, 1) 100%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    hsla(211, 96%, 62%, 1) 0%,
-    hsla(295, 94%, 76%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    hsla(211, 96%, 62%, 1) 0%,
-    hsla(295, 94%, 76%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#439CFB", endColorstr="#F187FB", GradientType=1 );
-  color: #2b2839;
 
   border-radius: 7px;
 
   padding: 20px;
 
   margin: 0px auto;
+  
+  color: #2b2839;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(211, 96%, 62%, 1) 0%,
+    hsla(295, 94%, 76%, 1) 100%
+  );
 }
